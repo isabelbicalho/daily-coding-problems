@@ -48,6 +48,8 @@ const run = (input) => {
   return maxDistance;
 }
 
+// ---------------- Testing
+
 const assert = (input, expected) => {
   result = run(input)
   console.log('Input:')
