@@ -199,6 +199,12 @@ const test = () => {
   expected = false;
   assert(input, expected)
   console.log('====================')
+  input = {
+      0: [],
+  }
+  expected = false;
+  assert(input, expected)
+  console.log('====================')
 }
 
 test();
